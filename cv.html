@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Resume</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: Roboto;
+        }
+        body {
+            margin: 20px 80px;
+        }
+        div:nth-child(1) {
+            text-align: center;
+        }
+        h1 {
+            margin: 30px 10px 20px 10px;
+        }
+        .red-letter {
+            color: red;
+        }
+        .skills p, .university p:last-child {
+            color: grey;
+        }
+        p {
+            font-size: 1.1em;
+            margin: 10px 0;
+        }
+        .university {
+            display: flex;
+            justify-content: space-between;
+        }
+        .university-name {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Александр Аскеров</h1>
+        <p><link rel="stylesheet" href="mailto:alexander.askerov@gmail.com">alexander.askerov@gmail.com • +79778615090</p>
+        <p>г. Москва, Россия</p>
+        <p><b>Разработчик</b></p>
+    </div>
+    <div>
+        <h2><span class="red-letter">О</span>бо мне</h2>
+        <p>Начинающий разработчик с навыками frontend-разработки. Создал собственные дизайны сайтов. Разработал консольное приложение для эффективного запоминания иностранных слов. Занял 1-е место в университетском конкурсе «Проектный старт: работа научного кружка». Люблю прогулки на природе и путешествия.</p>
+        <p><b>Проекты на GitHub: </b><a href="https://github.com/AlexanderAskerov">https://github.com/AlexanderAskerov</a></p>
+    </div>
+    <div>
+        <h2><span class="red-letter">О</span>пыт работы</h2>
+        <p>Опыта работы в компаниях пока нет.</p>
+    </div>
+    <div class="skills">
+        <h2><span class="red-letter">Н</span>авыки</h2>
+        <h3>Технические</h3>
+        <p><b>DevOps: </b>Linux, Docker, Git, Bash-скрипты, Python-скрипты</p>
+        <p><b>Python, JavaScript & C++</b></p>
+        <p><b>REST API</b></p>
+        <p><b>HTML & CSS</b></p>
+        <p><b>SQL</b></p>
+        <h3>Языки</h3>
+        <p><b>Русский (носитель), Английский (C1 Advanced), Немецкий (A1 Elementary)</b></p>
+    </div>
+    <div>
+        <h2><span class="red-letter">О</span>бразование</h2>
+        <div class="university">
+            <p class="university-name"><b>Российский Университет Дружбы Народов</b></p>
+            <p>Москва, Россия</p>
+        </div>
+        <div class="university">
+            <p>Прикладная информатика</p>
+            <p>Август 2022 - Август 2026</p>
+        </div>
+        <p>Бакалавриат, очно</p>
+    </div>
+</body>
+</html>
